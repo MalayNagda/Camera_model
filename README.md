@@ -36,9 +36,6 @@ Using the rotation and translation matrices, we calculate R1, R2, P1 and P2 whic
 R1, R2, P1 and P2 are stored in the .csv file- stereo_rectification.csv. After rectifying two views in the stereo system using rectification parmaters calculated, we get the two views whose principal axes are parallel and the pixels in row correspondences.
 This can be seen in the images in the 'output' folder for 'task_2'-
 <p align="center">
-  <img src="output/task_2/left_and_left.png">
-</p>
-<p align="center">
   <img src="output/task_2/left_and_right.png">
 </p>
 
