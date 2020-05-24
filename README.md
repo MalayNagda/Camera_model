@@ -14,4 +14,9 @@ The project involves-
 
 Depth sensing involves calculating the position of the 3D points in the world plane from 2D points in the image plane. This is done using two views of the same scene taken at the same time from two cameras which are part of a stereo system. The depth of only some of the matching pixels between the two views can be estimated using Sparse depth sensing. When the depth of all the pixels in the two views is estimated it is called dense depth estimation.   
 
+The code for each step is written as a separate task from task1-task4 in the folder named 'code'.
+### Task 1- Camera calibration
+
+Camera calibration is used to find the intrinsic parameters i.e. f_x and f_y which are focal lengths and c_x & c_y which are the optical centers for both the two cameras in the stereo system. The output of the task is a camera matrix with all the four parameter values (f_x, f_y, c_x and c_y) for each camera stored. The camera matrices are stored as .csv files- left_camera_intrinsics.csv and right_camera_intrinsics.csv in the 'parameters' folder.
+
 ## 2. Camera motion and structure
