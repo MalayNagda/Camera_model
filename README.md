@@ -27,4 +27,6 @@ This task is perfromed on images (two views) of chessboard patterns taken at dif
   <img src="output/task_1/right_2.png">
 </p>
 
+### Task 2- Stereo Calibration and rectification
+
 ## 2. Camera motion and structure
