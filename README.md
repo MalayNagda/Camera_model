@@ -60,7 +60,7 @@ Finally, we calculate the 3D coordinates by triangulating the matched features.
 To calculate the depth of every pixel, dense depth triangulation is performed using the parameters calculated in the first two tasks. 'StereoBM' class is used to calculate disparity map 
 in which the depth of a point in a scene is inversely proportional to the difference in distance of corresponding image points and their camera centers in the two views.
 <p align="center">
-  <img src="output/task_3/disparity_img1.png">
+  <img src="output/task_4/disparity_img1.png">
 </p>
 
 ## 2. Camera motion and structure
