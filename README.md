@@ -18,5 +18,12 @@ The code for each step is written as a separate task from task1-task4 in the fol
 ### Task 1- Camera calibration
 
 Camera calibration is used to find the intrinsic parameters i.e. f_x & f_y which are focal lengths of the camera and c_x & c_y which are optical centers of the camera. This is done for both the two cameras in the stereo system. The output of the task is a camera matrix with all the four parameter values (f_x, f_y, c_x and c_y) for each camera stored as .csv files- left_camera_intrinsics.csv and right_camera_intrinsics.csv in the 'parameters' folder.
+This task is perfromed on images (two views) of chessboard patterns taken at different orientations from the stereo camera system. To check the calibration results, we undistort the image of each view using their respective intrinsic camera matrix calculated. These results are as seen below-
+<p align="center">
+  <img src="output/task_1/left_2.png">
+</p>
+<p align="center">
+  <img src="output/task_1/right_2.png">
+</p>
 
 ## 2. Camera motion and structure
