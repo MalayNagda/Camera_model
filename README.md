@@ -39,4 +39,6 @@ This can be seen in the images in the 'output' folder for 'task_2'-
   <img src="output/task_2/left_and_right.png">
 </p>
 
+### Task 3- Sparse depth triangulation
+
 ## 2. Camera motion and structure
