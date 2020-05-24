@@ -39,6 +39,20 @@ This can be seen in the images in the 'output' folder for 'task_2'-
   <img src="output/task_2/left_and_right.png">
 </p>
 
-### Task 3- Sparse depth triangulation
+### Task 3- Sparse depth sensing
+
+Using the parameters calculated in task 1 and task 2, sparse 3D coordinates from the two views of the stereo system are obtained. First, features in two views are detected using OpenCV 'orb' class and then local non-maximum supression is performed
+to reduce the number of detected features. 
+<p align="center">
+  <img src="output/task_3/feature_points_img0.png">
+</p>
+The reduced features are matched between the two views using 'BFMatcher' class. 
+<p align="center">
+  <img src="output/task_3/matches_points_img0.png">
+</p>
+Finally, we calculate the 3D coordinates by triangulating the matched features. 
+<p align="center">
+  <img src="output/task_3/sparse_depth_img0.png">
+</p>
 
 ## 2. Camera motion and structure
