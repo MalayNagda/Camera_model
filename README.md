@@ -19,7 +19,7 @@ The code for each step is written as a separate task from task1-task4 in the fol
 
 Camera calibration is used to find the intrinsic parameters i.e. f_x & f_y which are focal lengths of the camera and c_x & c_y which are optical centers of the camera. This is done for both the two cameras in the stereo system. The output of the task is a camera matrix with all the four parameter values (f_x, f_y, c_x and c_y) for each camera stored as .csv files- left_camera_intrinsics.csv and right_camera_intrinsics.csv in the 'parameters' folder.
 
-This task is perfromed on images (two views) of chessboard patterns taken at different orientations from the stereo camera system. To check the calibration results, we undistort the image of each view using their respective intrinsic camera matrix calculated. These results are as seen below-
+This task is perfromed on images (two views) of chessboard patterns taken at different orientations from the stereo camera system. To check the calibration results, the image of each view is undistorted using their respective intrinsic camera matrix calculated. These resulting images are in the 'output' folder for 'task_1'-
 <p align="center">
   <img src="output/task_1/left_2.png">
 </p>
@@ -28,5 +28,18 @@ This task is perfromed on images (two views) of chessboard patterns taken at dif
 </p>
 
 ### Task 2- Stereo Calibration and rectification
+
+Stereo calibration involves the task of calculating the rotation and translation (using the intrinsic parameters calculated in the previous task) between the two camera reference frames of the stereo system. 
+The output of the calibration process- rotation, translation, fundamental and essential matrices are stored in the same .csv file- stereo_calibration.csv in the 'parameters' folder. 
+
+Using the rotation and translation matrices, we calculate R1, R2, P1 and P2 which are rotation and pose matrices from unectified pose to rectified pose of the two cameras. These matrices are necessary for rectifying the two cameras. 
+R1, R2, P1 and P2 are stored in the .csv file- stereo_rectification.csv. After rectifying two views in the stereo system using rectification parmaters calculated, we get the two views whose principal axes are parallel and the pixels in row correspondences.
+This can be seen in the images in the 'output' folder for 'task_2'-
+<p align="center">
+  <img src="output/task_2/left_and_left.png">
+</p>
+<p align="center">
+  <img src="output/task_2/left_and_right.png">
+</p>
 
 ## 2. Camera motion and structure
