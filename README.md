@@ -52,7 +52,7 @@ The reduced features are matched between the two views using 'BFMatcher' class.
 </p>
 Finally, we calculate the 3D coordinates by triangulating the matched features. 
 <p align="center">
-  <img src="output/task_3/sparse_depth_img0.png">
+  <img src="output/task_3/sparse_depth_img0.jpeg">
 </p>
 
 ## 2. Camera motion and structure
