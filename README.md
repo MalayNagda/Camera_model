@@ -79,5 +79,5 @@ for that image using the camera intrinsics found in 'task_1.py'. The 2D world pl
 Using the images of a scene taken from a single camera, it is possible to localize the pose of the camera from atleast four known points in 3D as a PnP problem. The four points are found by detecting Aruco markers. 
 <p align="center">
   <img src="output/task_6/camera_pose.png">
-  "The pose of the camera in 11 views using "left_0.png" to "left_10.png"."
+  The pose of the camera in 11 views using "left_0.png" to "left_10.png.
 </p>
