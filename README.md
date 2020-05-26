@@ -73,3 +73,5 @@ for that image using the camera intrinsics found in 'task_1.py'. The 2D world pl
 <p align="center">
   <img src="output/task_5/twoD_recontruct.png">
 </p>
+
+### Task 6- Camera pose estimation from a single view
