@@ -65,13 +65,19 @@ in which the depth of a point in a scene is inversely proportional to the differ
 
 ## 2. Camera motion and structure
 
-Camera motion and structure involves recontruction of a scene using the images taken from the cameras in the stereo system and the parameters calculated in the previous tasks.
+Camera motion and structure involves recontruction of a scene using the images taken from the cameras in the stereo system and the parameters calculated in the previous tasks. The code for this section is from 'task_5.py'-'task_7.py' in the 'code' folder. 
 
 ### Task 5- Planar homography
-The code for this section is from 'task_5.py'-'task_7.py' in the 'code' folder. Task 5 is reconstructing the world plane from an image by finding homography matrix
+Task 5 is reconstructing the 2D world plane from an image by finding homography matrix
 for that image using the camera intrinsics found in 'task_1.py'. The 2D world plane images can be found in the 'output' folder for 'task_5'. 
 <p align="center">
   <img src="output/task_5/twoD_recontruct.png">
 </p>
 
 ### Task 6- Camera pose estimation from a single view
+
+Using the images of a scene taken from a single camera, it is possible to localize the pose of the camera from atleast four known points in 3D as a PnP problem. The four points are found by detecting Aruco markers. 
+<p align="center">
+  <img src="output/task_6/camera_pose.png">
+  "The pose of the camera in 11 views using "left_0.png" to "left_10.png"."
+</p>
