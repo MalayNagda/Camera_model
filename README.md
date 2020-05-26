@@ -64,3 +64,12 @@ in which the depth of a point in a scene is inversely proportional to the differ
 </p>
 
 ## 2. Camera motion and structure
+
+Camera motion and structure involves recontruction of a scene using the images taken from the cameras in the stereo system and the parameters calculated in the previous tasks.
+
+### Task 5- Planar homography
+The code for this section is from 'task_5.py'-'task_7.py' in the 'code' folder. Task 5 is reconstructing the world plane from an image by finding homography matrix
+for that image using the camera intrinsics found in 'task_1.py'. The 2D world plane images can be found in the 'output' folder for 'task_5'. 
+<p align="center">
+  <img src="output/task_5/twoD_recontruct.png">
+</p>
