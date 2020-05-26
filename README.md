@@ -81,3 +81,6 @@ Using the images of a scene taken from a single camera, it is possible to locali
   <img src="output/task_6/camera_pose.png">
   The pose of the camera in 11 views using "left_0.png" to "left_10.png.
 </p>
+
+### Task 7- Camera pose estimation and reconstruction from two views
+
