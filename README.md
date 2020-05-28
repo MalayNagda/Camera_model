@@ -84,3 +84,10 @@ Using the images of a scene taken from a single camera, it is possible to locali
 
 ### Task 7- Camera pose estimation and reconstruction from two views
 
+Two view reconstruction is creating the 3D point cloud from two views taken by the same camera at two different poses. First, we match points between the two views to calculate the essential matrix.
+This essential matrix is then used to recover the pose of the camera. 
+
+<p align="center">
+  <img src="output/task_7/3d_points1.png">
+  An illustration of the recovered camera pose and reconstructed 3D points.
+</p>
