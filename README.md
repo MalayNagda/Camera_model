@@ -37,7 +37,7 @@ R1, R2, P1 and P2 are stored in the .csv file- stereo_rectification.csv. After r
 This can be seen in the images in the 'output' folder for 'task_2'-
 <p align="center">
   <img src="output/task_2/left_and_right_1.png">
-  <p> Original (top), undistorted but not rectified (middle), undistorted and rectified (bottom); for 'left_0.png' and 'right_0.png'</p>
+  <p align="center"> Original (top), undistorted but not rectified (middle), undistorted and rectified (bottom); for 'left_0.png' and 'right_0.png'</p>
 </p>
 
 ### Task 3- Sparse depth sensing
