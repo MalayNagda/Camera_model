@@ -65,6 +65,7 @@ To calculate the depth of every pixel, dense depth triangulation is performed us
 in which the depth of a point in a scene is inversely proportional to the difference in distance of corresponding image points and their camera centers in the two views.
 <p align="center">
   <img src="output/task_4/disparity_img1.png">
+  <p align="center">Rectified images from the stereo camera (left and middle), and the disparity map (right).</p>
 </p>
 
 ## 2. Camera motion and structure
@@ -76,6 +77,7 @@ Task 5 is reconstructing the 2D world plane from an image by finding homography 
 for that image using the camera intrinsics found in 'task_1.py'. The 2D world plane images can be found in the 'output' folder for 'task_5'. 
 <p align="center">
   <img src="output/task_5/twoD_recontruct.png">
+  <p align="center">2D world reconstruction from the 'left_0.png' and 'right_0.png' images</p>
 </p>
 
 ### Task 6- Camera pose estimation from a single view
