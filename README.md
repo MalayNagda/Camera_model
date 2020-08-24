@@ -10,6 +10,16 @@ The project involves-
    - camera pose from a single view as a PnP problem.
    - camera pose from two views using essential matrix.
 
+## Dependencies
+
+* Python 3.6+
+* OpenCV 3.4+
+
+## Deployment
+A description of each step to accomplish the project is provided below.
+
+The code for each step/task can be found in ./code folder. The input images used for each step/task were provided by Prof. Duo and are present in ./images folder. The output of each step/task is stored in ./output folder and will be stored in that folder when you run the code for each step/task.
+
 ## 1. Stereo depth sensing
 
 Depth sensing involves calculating the position of the 3D points in the world plane from 2D points in the image plane. This is done using two views of the same scene taken at the same time from two cameras which are part of a stereo system. The depth of only some of the matching pixels between the two views can be estimated using Sparse depth sensing. When the depth of all the pixels in the two views is estimated it is called dense depth estimation.   
@@ -97,3 +107,11 @@ This essential matrix is then used to recover the pose of the camera.
   <img src="output/task_7/3d_points1.png">
   An illustration of the recovered camera pose and reconstructed 3D points.
 </p>
+
+## Authors
+* Malay Nagda- Task 1, Task 2, Task 3, Task 4, Task 7
+* Anusha Vaidya- Task 5, Task 7
+* Karthik Kashinath Kulkarni- Task 6
+
+## Acknowledgements
+This project was a part of a graduate course- Perception in Robotics at Arizona State University as taught and resources provided by Dr. Yezhou Yang and Duo Lu.
