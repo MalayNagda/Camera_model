@@ -46,14 +46,17 @@ Using the parameters calculated in task 1 and task 2, sparse 3D coordinates from
 to reduce the number of detected features. 
 <p align="center">
   <img src="output/task_3/feature_points_img0.png">
+  <p align="center"> Detected feature points (left) and selected local maxima feature points with a six pixel radius (right) </p>
 </p>
 The reduced features are matched between the two views using 'BFMatcher' class. 
 <p align="center">
   <img src="output/task_3/matches_points_img0.png">
+  <p align="center">Selected matches of feature points on the two views</p>
 </p>
 Finally, we calculate the 3D coordinates by triangulating the matched features. 
 <p align="center">
   <img src="output/task_3/sparse_depth_img0.jpeg">
+  <p align="center">Sparse depth triangulation results: the original image (left), obtained 3D points (middle), 3D points on a cylinder surface from a certain view (right).
 </p>
 
 ### Task 4- Dense depth sensing
